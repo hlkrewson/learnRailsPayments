@@ -14,7 +14,8 @@ gem 'sqlite3', group: [:development, :test]
 
 # postgres for production database
 gem 'pg', group: :production
-
+# stripe for taking payments
+gem 'stripe', '~> 3.0', '>= 3.0.1'
 #12 factor for heroku
 gem 'rails_12factor', group: :production
 
