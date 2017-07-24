@@ -22,6 +22,7 @@ gem 'rails_12factor', group: :production
 # add twitter bootstrap
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 gem 'figaro'
+gem 'letter_opener', group: :development
 gem 'puma', '~> 3.7'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
