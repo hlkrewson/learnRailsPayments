@@ -19,6 +19,14 @@ gem 'stripe', '~> 3.0', '>= 3.0.1'
 #12 factor for heroku
 gem 'rails_12factor', group: :production
 
+# activeadmin for admin system
+gem 'activeadmin', github: 'activeadmin'
+gem 'inherited_resources', github: 'activeadmin/inherited_resources'
+
+# devise for user authentication
+gem 'devise'
+gem 'bcrypt', '~> 3.1', '>= 3.1.11'
+
 # add twitter bootstrap
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 gem 'figaro'
@@ -30,6 +38,7 @@ gem 'coffee-script-source', '1.8.0'
 gem 'coffee-rails', '~> 4.2'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
+
 
 
 group :development, :test do
