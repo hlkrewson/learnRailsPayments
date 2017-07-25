@@ -9,12 +9,12 @@
 
 niceCat = Product.create(title: "Quality Kitty",
 	subtitle: "Learn App Code", image_name: "kitty.JPG",
-	price: "4.99", sku: "kittyOne", info: "cute cate", download_url:"https://s3.us-east-2.amazonaws.com/rails-learnapp-bucket-hkrewson/a-1.gif",
+	price: "4.99", sku: "kittyOne", info: "cute cate", download_url:"https://s3.us-east-2.amazonaws.com/rails-learnapp-bucket-hkrewson/kitty.jpg",
 	details: "A really nice cat", description: %{<p>It's a cat</p>
 	})
 
 niceDog = Product.create(title: "Quality Dog",
 	subtitle: "Learn App Code", image_name: "dog.jpg",
-	price: "4.99", sku: "dogOne", info: "cute pup", download_url:"https://s3.us-east-2.amazonaws.com/rails-learnapp-bucket-hkrewson/a-1.gif",
+	price: "4.99", sku: "dogOne", info: "cute pup", download_url:"https://s3.us-east-2.amazonaws.com/rails-learnapp-bucket-hkrewson/dog.jpg",
 	details: "A really nice dog", description: %{<p>It's a dog</p>
 	})
